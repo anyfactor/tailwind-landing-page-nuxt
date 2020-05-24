@@ -5,7 +5,6 @@
         <div class="flex-1 mb-6">
           <logo />
         </div>
-
         <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Links</p>
           <ul class="list-reset mb-6">
@@ -13,19 +12,22 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >FAQ</a>
+                >FAQ</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Help</a>
+                >Help</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Support</a>
+                >Support</a
+              >
             </li>
           </ul>
         </div>
@@ -36,13 +38,15 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Terms</a>
+                >Terms</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Privacy</a>
+                >Privacy</a
+              >
             </li>
           </ul>
         </div>
@@ -53,19 +57,22 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Facebook</a>
+                >Facebook</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Linkedin</a>
+                >Linkedin</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Twitter</a>
+                >Twitter</a
+              >
             </li>
           </ul>
         </div>
@@ -76,28 +83,31 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Official Blog</a>
+                >Official Blog</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >About Us</a>
+                >About Us</a
+              >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Contact</a>
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </div>
 
-    <a
-      href="https://www.freepik.com/free-photos-vectors/background"
-    >Background vector created by freepik - www.freepik.com</a>
+    <a href="https://www.freepik.com/free-photos-vectors/background"
+      >Background vector created by freepik - www.freepik.com</a
+    >
   </footer>
 </template>
 

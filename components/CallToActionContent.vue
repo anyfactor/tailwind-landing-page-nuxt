@@ -12,14 +12,15 @@
     </div>
 
     <h3 class="my-4 text-3xl leading-tight">
-      If you are interested, feel free to send me a message.
+      If you are interested, feel free to send me an email.
     </h3>
 
     <button
       class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
       @click="doCopy"
     >
-      Click To Copy My Email !
+      <!-- Click To Copy My Email ! -->
+      anyfactor@gmail.com
     </button>
   </section>
 </template>
