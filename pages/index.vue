@@ -1,9 +1,9 @@
 <template>
   <div>
     <hero />
-    <features />
     <teasers />
-    <prices />
+    <features />
+    <!-- <prices /> -->
     <call-to-action />
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
     hero: Hero,
     features: Features,
     teasers: Teasers,
-    prices: Prices,
+    // prices: Prices,
     'call-to-action': CallToAction
   }
 }

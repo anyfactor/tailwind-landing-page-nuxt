@@ -5,12 +5,14 @@
     </div>
     <div class="w-full sm:w-1/2 p-6 mt-6">
       <div class="align-middle">
-        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">{{ headline }}</h3>
+        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+          {{ headline }}
+        </h3>
         <p class="text-gray-600 mb-8">
           {{ content }}
-          <br />
-          <br />Images from:
-          <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a>
+        </p>
+        <p class="text-gray-600 mb-8">
+          {{ footer }}
         </p>
       </div>
     </div>
@@ -26,6 +28,10 @@ export default {
       required: false
     },
     content: {
+      type: String,
+      required: false
+    },
+    footer: {
       type: String,
       required: false
     }

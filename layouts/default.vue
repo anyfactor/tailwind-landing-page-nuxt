@@ -35,4 +35,12 @@ html {
   /* background: linear-gradient(90deg, #6200ee 0%, #03dac5 100%);  */
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
+.another-gradient {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    106deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
 </style>
