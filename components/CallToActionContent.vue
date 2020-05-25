@@ -14,12 +14,12 @@
     <h3 class="my-4 text-3xl leading-tight">
       If you are interested, feel free to send me an email.
     </h3>
-    <p>
+    <!-- <p>
       <button class="js-textareacopybtn" style="vertical-align:top;">
         Copy Textarea
       </button>
       <textarea class="js-copytextarea">Hello I'm some text</textarea>
-    </p>
+    </p> -->
 
     <button
       class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
@@ -32,24 +32,24 @@
 </template>
 
 <script>
-$(document).ready(function() {
-  //call your script.js function from here
-  var copyTextareaBtn = document.querySelector('.js-textareacopybtn')
+// $(document).ready(function() {
+//   //call your script.js function from here
+//   var copyTextareaBtn = document.querySelector('.js-textareacopybtn')
 
-  copyTextareaBtn.addEventListener('click', function(event) {
-    var copyTextarea = document.querySelector('.js-copytextarea')
-    copyTextarea.focus()
-    copyTextarea.select()
+//   copyTextareaBtn.addEventListener('click', function(event) {
+//     var copyTextarea = document.querySelector('.js-copytextarea')
+//     copyTextarea.focus()
+//     copyTextarea.select()
 
-    try {
-      var successful = document.execCommand('copy')
-      var msg = successful ? 'successful' : 'unsuccessful'
-      console.log('Copying text command was ' + msg)
-    } catch (err) {
-      console.log('Oops, unable to copy')
-    }
-  })
-})
+//     try {
+//       var successful = document.execCommand('copy')
+//       var msg = successful ? 'successful' : 'unsuccessful'
+//       console.log('Copying text command was ' + msg)
+//     } catch (err) {
+//       console.log('Oops, unable to copy')
+//     }
+//   })
+// })
 
 export default {
   name: 'CallToActionContent'
