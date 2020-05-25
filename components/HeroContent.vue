@@ -7,6 +7,9 @@
       <div
         class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
       >
+        <p class="uppercase tracking-loose w-full">
+          Site under development
+        </p>
         <p class="uppercase tracking-loose w-full">Data & Web Developer</p>
         <h1 class="my-4 text-5xl font-bold leading-tight">AnyFactor</h1>
         <p class="leading-normal text-2xl mb-8">
