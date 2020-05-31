@@ -39,7 +39,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/svg'],
+  modules: ['@nuxtjs/svg', 'nuxt-clipboard2'],
   purgeCSS: {
     whitelist: ['hidden'],
     whitelistPatterns: [/md:w-[1-6]/]
