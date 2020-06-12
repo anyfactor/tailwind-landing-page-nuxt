@@ -7,7 +7,7 @@
       <div
         class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-md"
       >
-        <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+        <div class="flex flex-wrap no-underline hover:no-underline">
           <div
             class="w-full font-bold text-xl text-gray-800 px-6 uppercase my-4
           text-center"
@@ -22,7 +22,7 @@
           </ul>
           <p class="text-gray-800 text-base px-6 mb-5 mt-2">
             <slot name="footer" /></p
-        ></a>
+        ></div>
       </div>
       <div
         v-if="renderAction"
@@ -31,7 +31,6 @@
         <div class="flex items-center justify-end">
           <button
             class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-            @click.prevent="onClick"
           >
             {{ action }}
           </button>
