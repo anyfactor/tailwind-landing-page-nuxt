@@ -17,12 +17,14 @@
           <br />
           Web Development - Social Media Managment
         </p>
-
-        <button
-          class="mx-auto lg:mx-0 hover:underline bg-white text-white-200 font-bold another-gradient rounded-full my-6 py-4 px-8 shadow-lg"
-        >
-          Portfolio
-        </button>
+<!-- 
+        <nuxt-link to="/webscraping">
+          <button
+            class="mx-auto lg:mx-0 hover:underline bg-white text-white-200 font-bold another-gradient rounded-full my-6 py-4 px-8 shadow-lg"
+          >
+            Portfolio
+          </button>
+        </nuxt-link> -->
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center">

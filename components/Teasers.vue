@@ -11,7 +11,7 @@
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
-      <teaser-column :rows="3" action="Action">
+      <teaser-column :rows="3" action="Portfolio" path="/webscraping">
         <template v-slot:headline
           >Web Scraping</template
         >
@@ -50,7 +50,7 @@
           >Whatever it is send me an email and we will make dreams into reality.
         </template>
       </teaser-column>
-      <teaser-column :rows="3" action="Action">
+      <teaser-column :rows="3" action="Portfolio" path="/automation">
         <template v-slot:headline
           >Automation</template
         >
