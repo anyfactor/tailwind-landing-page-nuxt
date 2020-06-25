@@ -18,9 +18,9 @@
     </h1>
       <feature-left
         headline="Notestem.com"
-        content="I will help you create a beautiful, lightweight and user-focused website that is easy to operate and close as free to maintain."
+        content="Blog about Orchestra and Band Instruments"
         :list="notestem"
-        footer="Whatever it is send me an email and we will make dreams into reality."
+        footer=""
         path="https://www.notestem.com/"
         buttonName="Visit"
       >
@@ -29,11 +29,51 @@
       </feature-left>
 
 
+      <feature-right
+        headline="ManageChannel.com"
+        content="SAAS YouTube Channel Management services"
+        :list=manage_channel
+        path="/"
+        buttonName="Visit"
+     >
+        <img src="" alt slot="svg" style="height:80%"/>
+      </feature-right>
+
+
+      <feature-left
+        headline="DailyIdea.com"
+        content="Daily Idea noting and Idea based social platform"
+        :list="daily_idea"
+        path="/"
+        buttonName="Visit"
+      >
+   
+      <img src="" alt slot="svg" />
+      </feature-left>
+
+      <feature-right
+        headline="Service Hub"
+        content="Booking automobile service appointment service"
+        :list="Social_hub"
+        path="/"
+        buttonName="Portfolio"
+     >
+        <img src="" alt slot="svg" style="height:80%"/>
+      </feature-right>
+
+
+
          <div>
             <h1 class="w-full my-1 text-3xl font-bold leading-tight text-left text-gray-800">
       Technology & Tool
     </h1>
-
+<div class="mx-auto font-bold leading-tight text-gray-700 m-10">
+      <ul>
+        <li v-for="item in technology" :key="item.id" class="list-disc m-3">
+          {{ item }}
+        </li>
+      </ul>
+      </div>
 
 
     <nuxt-link to="/">
@@ -70,9 +110,13 @@ export default {
     },
     data: function() {
         return {
-        title: "Web Scraping",
+        title: "Web Development",
         notestem: ['VueJs, Nuxt', 'Netlify & Netlify CMS', 'Github'],
-        technology: ['Python', 'Selenium, Requests-HTML', 'Requests, URLLib, Beautiful Soup 4', 'Regex', 'Pandas, Numpy', 'Microsoft Excel, Google Sheets', 'SQL']
+        manage_channel: ['VueJs, Nuxt', 'Django REST', 'PostGreSQL', 'Github'],
+        daily_idea: ['VueJs, Nuxt', 'SCSS', 'Template Modification', 'Github'],
+        Social_hub: ['VueJs, Nuxt', 'Netlify & Netlify CMS',  'Laravel REST', 'PostGreSQL', 'Github'],
+        technology: ['Stack: JAMstack (Javascript, API, Markup)', 'Preferred Role: Frontend Developer','Front End Framework: VueJs', 'Static Site Generator: NuxtJs', 'Frontend CSS Framework: BootstrapVue, Vuetify, Tailwind, SCSS', 'Static Site Deployment: Netlify, Github Pages',
+                   'Content Management System: Netlify CMS, Nuxt Content', 'API: Firebase, Flask, FastAPI', 'Android, Cross Platform & Chrome Extension Development: Quasar','Backend: Python, Javascript', 'Database: SQLite3, PostGreSQL, JSON, Markdown']
         }
     }
 }
