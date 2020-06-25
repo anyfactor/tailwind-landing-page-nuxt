@@ -20,7 +20,9 @@
     "@nuxtjs/svg": "^0.1.11",
     "micromodal": "^0.4.6",
     "nuxt": "^2.12.2",
-    "nuxt-clipboard2": "^0.2.1"
+    "nuxt-clipboard2": "^0.2.1",
+    "swiper": "^5.4.2",
+    "vue-awesome-swiper": "^4.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",

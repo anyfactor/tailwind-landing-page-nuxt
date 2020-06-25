@@ -3,7 +3,6 @@
     :class="classList"
     class="w-full p-6 flex flex-col flex-grow flex-shrink"
   >
-    <nuxt-link :to="path">
       <div
         class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-md"
       >
@@ -21,22 +20,26 @@
             <slot name="list" />
           </ul>
           <p class="text-gray-800 text-base px-6 mb-5 mt-2">
+          <!-- <img :src="img_path" alt="" style="height:100px "> -->
             <slot name="footer" /></p
         ></div>
       </div>
-      <div
-        v-if="renderAction"
-        class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6 py-1"
-      >
-        <div class="flex items-center justify-end">
-          <button
-            class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          >
-            {{ action }}
-          </button>
+      <template v-if="buttonBool">
+        <div
+          v-if="renderAction"
+          class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6 py-1"
+        >
+          <div class="flex items-center justify-end">
+            <nuxt-link :to="path">
+            <button
+              class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+            >
+              {{ action }}
+            </button>
+            </nuxt-link>
+          </div>
         </div>
-      </div>
-    </nuxt-link>
+      </template>
   </div>
 </template>
 
@@ -59,6 +62,16 @@ export default {
       type: String,
       default: ''
     },
+    img_path: {
+      type: String,
+      default: '',
+      required: false
+    },
+    buttonBool: {
+      type: String,
+      default: false,
+      required: false
+    }
   },
   computed: {
     classList() {

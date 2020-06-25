@@ -8,6 +8,7 @@
     :title="title"
     :items="items"
     />
+    <!-- <carousel /> -->
     <call-to-action />
 </div>
 
@@ -20,6 +21,7 @@ import Teasers from '@/components/Teasers'
 import Prices from '@/components/Prices'
 import CallToAction from '@/components/CallToAction'
 import Experience from '@/components/Experience'
+// import Carousel from '@/components/Carousel'
 
 export default {
     components: {
@@ -28,7 +30,8 @@ export default {
     teasers: Teasers,
     prices: Prices,
     'call-to-action': CallToAction,
-    experience: Experience
+    experience: Experience,
+    // carousel: Carousel
     },
     data: function() {
         return {

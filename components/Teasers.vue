@@ -4,14 +4,14 @@
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
       >
-        Experience
+        Other Services
       </h1>
       <div class="w-full mb-4">
         <div
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
-      <teaser-column :rows="3" action="Portfolio" path="/webscraping">
+      <!-- <teaser-column :rows="3" action="Portfolio" path="/webscraping">
         <template v-slot:headline
           >Web Scraping</template
         >
@@ -71,10 +71,10 @@
           >I will set up scripts using Remote Assistance and will provide
           detailed video instruction.
         </template>
-      </teaser-column>
+      </teaser-column> -->
     </div>
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <teaser-column :rows="3" action="Action">
+      <teaser-column :rows="3" action="Details" img_path="~/assets/img/programming.png" buttonBool="true">
         <template v-slot:headline
           >Data Visualization</template
         >
@@ -84,7 +84,7 @@
           even in interactive web format media in SVG and Javascript.
         </template>
       </teaser-column>
-      <teaser-column :rows="3" action="Action">
+      <teaser-column :rows="3" action="Details" buttonBool="true">
         <template v-slot:headline
           >Social Media Management</template
         >
@@ -103,7 +103,7 @@
           >Coupled with SEO, Automation tools and my programming skills.
         </template>
       </teaser-column>
-      <teaser-column :rows="3" action="Action">
+      <teaser-column :rows="3" action="Details" buttonBool="true">
         <template v-slot:headline
           >Data Analytics</template
         >

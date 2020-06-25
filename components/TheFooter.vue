@@ -26,7 +26,7 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Support</a
+                >Terms</a
               >
             </li>
           </ul>
@@ -55,49 +55,49 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://reddit.com/u/anyfactor" target="_blank" 
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Facebook</a
+                >Reddit</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Linkedin</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
+                href="https://twitter.com/anyfactor" target="_blank" 
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >Twitter</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="https://www.youtube.com/channel/UCYtdDWgkfAnNSxL37s6SWLQ" target="_blank" 
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >YouTube</a
               >
             </li>
           </ul>
         </div>
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <p class="uppercase text-gray-500 md:mb-6">Developer Links</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://github.com/anyfactor/" target="_blank" 
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Official Blog</a
+                >Github</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://www.codewars.com/users/anyfactor" target="_blank" 
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >About Us</a
+                >CodeWars</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://medium.com/@anyfactor/" target="_blank" 
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Contact</a
+                >Medium</a
               >
             </li>
           </ul>
