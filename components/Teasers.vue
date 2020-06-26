@@ -74,7 +74,7 @@
       </teaser-column> -->
     </div>
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <teaser-column :rows="3" action="Details" img_path="~/assets/img/programming.png" buttonBool="true">
+      <teaser-column :rows="3" action="Details" img_path="~/assets/img/programming.png">
         <template v-slot:headline
           >Data Visualization</template
         >
@@ -84,7 +84,7 @@
           even in interactive web format media in SVG and Javascript.
         </template>
       </teaser-column>
-      <teaser-column :rows="3" action="Details" buttonBool="true">
+      <teaser-column :rows="3" action="Details">
         <template v-slot:headline
           >Social Media Management</template
         >
@@ -103,7 +103,7 @@
           >Coupled with SEO, Automation tools and my programming skills.
         </template>
       </teaser-column>
-      <teaser-column :rows="3" action="Details" buttonBool="true">
+      <teaser-column :rows="3" action="Details">
         <template v-slot:headline
           >Data Analytics</template
         >

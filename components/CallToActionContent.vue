@@ -12,7 +12,7 @@
     </div>
 
     <h3 class="my-4 text-3xl leading-tight">
-      If you are interested, feel free to send me an email.
+      If you are interested, feel free to send me an email<br/><strong class="leading-relaxed ">anyfactor@gmail.com</strong>
     </h3>
     <!-- <p>
       <button class="js-textareacopybtn" style="vertical-align:top;">
@@ -22,6 +22,7 @@
     </p> -->
     <!-- <input type="text" v-model="message" /> -->
   <contact-button />
+  <contact-button message="anyfactor#8591" button_text="Copy my Discord ID" />
   </section>
 </template>
 

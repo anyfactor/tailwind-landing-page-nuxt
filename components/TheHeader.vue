@@ -37,10 +37,12 @@
             >link</a>
           </li>
         </ul>
-        <button
+        <a href="#contact">
+          <button
           :class="navActionClassList"
           class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
-        >Action</button>
+          >Contact</button>
+        </a>
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />

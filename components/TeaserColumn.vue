@@ -68,7 +68,7 @@ export default {
       required: false
     },
     buttonBool: {
-      type: String,
+      type: Boolean,
       default: false,
       required: false
     }

@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white">
+  <footer class="bg-white" id="contact">
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
@@ -19,33 +19,40 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Help</a
+                >Terms</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Terms</a
+                >Pricing</a
               >
             </li>
           </ul>
         </div>
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+          <p class="uppercase text-gray-500 md:mb-6">Services</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Terms</a
+                >Web</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Privacy</a
+                >Python</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >SMM</a
               >
             </li>
           </ul>
@@ -55,7 +62,7 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://reddit.com/u/anyfactor" target="_blank" 
+                href="https://www.reddit.com/user/anyfactor" target="_blank" 
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >Reddit</a
               >

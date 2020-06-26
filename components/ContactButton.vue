@@ -15,16 +15,28 @@ import Vue from 'vue'
 Vue.use(VueClipboard)
 
 export default {
-  data: function() {
-    return {
-      message: 'anyfactor@gmail.com',
-      button_text: 'Click to Get Email'
-    }
+  props: {
+    message: {
+      type: String,
+      default: 'anyfactor@gmail.com',
+      required: false
+    },
+    button_text: {
+      type: String,
+      default: 'Click to Get Email',
+      required: false
+    },
   },
+  // data: function() {
+  //   return {
+  //     message: 'anyfactor@gmail.com',
+  //     button_text: 'Click to Get Email'
+  //   }
+  // },
   methods: {
     onCopy: function(e) {
       alert(
-        'Thanks for copying my Email\n\n' +
+        'Thanks for copying my contact info\n\n' +
           e.text +
           '\n\n Feel free to reach out to me anytime.'
       )
