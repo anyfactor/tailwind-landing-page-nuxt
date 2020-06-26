@@ -32,7 +32,7 @@
         <img src="~/assets/img/Web_design_SVG.svg" alt slot="svg" style="height:80%" />
       </feature-left>
       <feature-right
-        headline="Automation"
+        headline="Automation & Bots"
         content="I can create scripts to automate your boring repetitive tasks. Whatever you can think of "
         :list="automation_list"
         footer="I can automate that. I will set up scripts using Remote Assistance and will provide detailed video instruction."
