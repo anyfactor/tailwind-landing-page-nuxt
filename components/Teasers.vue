@@ -76,20 +76,19 @@
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
       <teaser-column :rows="3" action="Details" img_path="~/assets/img/programming.png">
         <template v-slot:headline
-          >Data Visualization</template
+          >Data Analytics & Visualization</template
         >
         <template v-slot:content
-          >Want to visualize your data for ease of understanding? With Excel and
-          Python, I can help visualize your data and in static and dynamic form
-          even in interactive web format media in SVG and Javascript.
+          >Convert your messy data and derive value-adding decision-making solutions. With Data cleanup, sanitization and structuring data-driven decision making can be done efficiently.<br/><br/>I can also help visualize your data and in static and dynamic form even in interactive web format media in SVG and Javascript.
         </template>
       </teaser-column>
+
       <teaser-column :rows="3" action="Details">
         <template v-slot:headline
-          >Social Media Management</template
+          >Social Media<br/>Management</template
         >
         <template v-slot:content
-          >My extensive experience in programming, finance, accounting, sales,
+          >My extensive experience in programming, finance, accounting, sales, trading,
           eCommerce and digital marketing allows me to be the best candidate to
           -
         </template>
@@ -103,16 +102,15 @@
           >Coupled with SEO, Automation tools and my programming skills.
         </template>
       </teaser-column>
+
+
       <teaser-column :rows="3" action="Details">
         <template v-slot:headline
-          >Data Analytics</template
+          >Python<br/>Programming</template
         >
         <template v-slot:content
-          >Convert your messy data and derive value-adding decision-making
-          solutions. With my intermediate skills in MS Excel (Pivot Table,
-          PowerQuery) and Python using Pandas, Numpy, SQL, Regex, CSV and
-          service interaction data-driven decision making can be done
-          efficiently.
+          >I have been a professional python developer for years now. While some take python as a tool or merely a programming language, my use case of python derives from the passion I feel for it.<br/><br/>That is why I have explored and learned the extensive application of python. 
+
         </template>
       </teaser-column>
     </div>

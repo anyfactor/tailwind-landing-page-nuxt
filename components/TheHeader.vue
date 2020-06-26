@@ -22,19 +22,25 @@
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
-            <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="\">Active</a>
+            <nuxt-link class="inline-block py-2 px-4 text-black font-bold no-underline" to="/">Home</nuxt-link>
           </li>
           <li class="mr-3">
-            <a
+            <nuxt-link
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="\"
-            >link</a>
+              to="/webscraping"
+            >Scraping</nuxt-link>
           </li>
           <li class="mr-3">
-            <a
+            <nuxt-link
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="\"
-            >link</a>
+              to="/webdev"
+            >Web Dev</nuxt-link>
+          </li>
+          <li class="mr-3">
+            <nuxt-link
+              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              to="/automation"
+            >Automation</nuxt-link>
           </li>
         </ul>
         <a href="#contact">
