@@ -16,51 +16,71 @@
     <h1 class="w-full my-1 text-3xl font-bold leading-tight text-left text-gray-800">
       Experience
     </h1>
-      <feature-left
-        headline="Notestem.com"
-        content="Blog about Orchestra and Band Instruments"
-        :list="notestem"
-        footer=""
-        path="https://www.notestem.com/"
-        buttonName="Visit"
-      >
-   
-      <img src="~/assets/img/web dev/notestem.png" alt slot="svg" />
-      </feature-left>
+    <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.notestem.com/">
+        <template v-slot:headline
+          >Notestem.com</template
+        >
+        <template v-slot:content
+          >Blog about Orchestra and Band Instruments</template>
+        <template v-slot:list>
+          <div v-for="item in notestem" :key="item.id">
+            <li>{{ item }}</li>
+          </div>
+        </template>
+        <template v-slot:footer
+          >
+        </template>
+      </teaser-column>
+      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.managechannel.com/">
+        <template v-slot:headline
+          >ManageChannel.com</template
+        >
+        <template v-slot:content
+          >SAAS YouTube Channel Management services</template>
+        <template v-slot:list>
+          <div v-for="item in manage_channel" :key="item.id">
+            <li>{{ item }}</li>
+          </div>
+        </template>
+        <template v-slot:footer
+          >
+        </template>
+      </teaser-column>
 
+      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.dailyidea.com/">
+        <template v-slot:headline
+          >DailyIdea.com
+     </template>
+        <template v-slot:content
+          >Daily Idea noting and Idea based social platform</template>
+        <template v-slot:list>
+          <div v-for="item in daily_idea" :key="item.id">
+            <li>{{ item }}</li>
+          </div>
+        </template>
+        <template v-slot:footer
+          >
+        </template>
+      </teaser-column>
+      
+      <teaser-column :rows="2" action="Visit" path="#">
+        <template v-slot:headline
+          >Service Hub</template
+        >
+        <template v-slot:content
+          >Booking automobile service appointment service</template>
+        <template v-slot:list>
+          <div v-for="item in Social_hub" :key="item.id">
+            <li>{{ item }}</li>
+          </div>
+        </template>
+        <template v-slot:footer
+          >
+        </template>
+      </teaser-column>
 
-      <feature-right
-        headline="ManageChannel.com"
-        content="SAAS YouTube Channel Management services"
-        :list=manage_channel
-        path="/"
-        buttonName="Visit"
-     >
-        <img src="" alt slot="svg" style="height:80%"/>
-      </feature-right>
-
-
-      <feature-left
-        headline="DailyIdea.com"
-        content="Daily Idea noting and Idea based social platform"
-        :list="daily_idea"
-        path="/"
-        buttonName="Visit"
-      >
-   
-      <img src="" alt slot="svg" />
-      </feature-left>
-
-      <feature-right
-        headline="Service Hub"
-        content="Booking automobile service appointment service"
-        :list="Social_hub"
-        path="/"
-        buttonName="Portfolio"
-     >
-        <img src="" alt slot="svg" style="height:80%"/>
-      </feature-right>
-
+    </div>
 
 
          <div>
@@ -99,6 +119,7 @@ import CallToAction from '@/components/CallToAction'
 import ContactButton from '@/components/ContactButton'
 import FeatureRight from '@/components/FeatureRight'
 import FeatureLeft from '@/components/FeatureLeft'
+import TeaserColumn from '@/components/TeaserColumn'
 
 export default {
     components: {
@@ -106,7 +127,8 @@ export default {
     'call-to-action': CallToAction,
     'contact-button': ContactButton,
     'feature-right': FeatureRight,
-    'feature-left': FeatureLeft
+    'feature-left': FeatureLeft,
+    'teaser-column': TeaserColumn
     },
     data: function() {
         return {

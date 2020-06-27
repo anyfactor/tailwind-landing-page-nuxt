@@ -30,13 +30,13 @@
           class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6 py-1"
         >
           <div class="flex items-center justify-end">
-            <nuxt-link :to="path">
+            <a :href="path" target="_blank">
             <button
               class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
             >
               {{ action }}
             </button>
-            </nuxt-link>
+            </a>
           </div>
         </div>
       </template>
