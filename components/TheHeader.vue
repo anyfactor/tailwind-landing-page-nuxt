@@ -22,7 +22,7 @@
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
-            <nuxt-link class="inline-block py-2 px-4 text-black font-bold no-underline" to="/">Home</nuxt-link>
+            <nuxt-link class="inline-block py-2 px-4 text-black font-black no-underline" to="/">Home</nuxt-link>
           </li>
           <li class="mr-3">
             <nuxt-link
@@ -41,6 +41,13 @@
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               to="/automation"
             >Automation</nuxt-link>
+          </li>
+          <li class="mr-3">
+            <a
+              class="inline-block font-medium text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="https://drive.google.com/file/d/1ZjzUroQdM4WtTrNgbx6PAVAs_WqWjMJs/view?usp=sharing"
+              target="_blank"
+            >Resume</a>
           </li>
         </ul>
         <a href="#contact">
