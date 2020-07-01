@@ -30,7 +30,7 @@ export default {
    */
   plugins: [
     { src: '@/plugins/vue-awesome-swiper', mode: 'client', ssr:false },
-    { src: '~plugins/ga.js', mode: 'client' }
+    { src: '@/plugins/ga.js', mode: 'client' }
   ],
   /*
    ** Nuxt.js dev-modules
