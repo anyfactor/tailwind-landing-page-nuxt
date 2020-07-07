@@ -12,15 +12,16 @@
         ></div>
       </div>
       <feature-right
-        headline="Web Scraping"
-        content="Through automated web scraping and data extraction convert websites to beautifully structured datasets. Suitable for Price Monitoring, Lead Generation, Marketing, Research etc."
-        :list=web_scraping
-        footer="Ease your life with quick access to datasets."
-        path="/webscraping"
+        headline="Automation & Bots"
+        content="I can create scripts to automate your boring repetitive tasks. Whatever you can think of "
+        :list="automation_list"
+        footer="I can automate that. I will set up scripts using Remote Assistance and will provide detailed video instruction."
+        path="/automation"
         buttonName="Portfolio"
      >
-        <img src="~/assets/img/app_development_SVG.svg" alt slot="svg" style="height:80%"/>
+        <img src="~/assets/img/Coding_SVG.svg" alt slot="svg" style="height:80%"/>
       </feature-right>
+      
       <feature-left
         headline="Web Development"
         content="I will help you create a beautiful, lightweight and user-focused website that is easy to operate and close as free to maintain."
@@ -31,15 +32,16 @@
       >
         <img src="~/assets/img/Web_design_SVG.svg" alt slot="svg" style="height:80%" />
       </feature-left>
+
       <feature-right
-        headline="Automation & Bots"
-        content="I can create scripts to automate your boring repetitive tasks. Whatever you can think of "
-        :list="automation_list"
-        footer="I can automate that. I will set up scripts using Remote Assistance and will provide detailed video instruction."
-        path="/automation"
+        headline="Web Scraping"
+        content="Through automated web scraping and data extraction convert websites to beautifully structured datasets. Suitable for Price Monitoring, Lead Generation, Marketing, Research etc."
+        :list=web_scraping
+        footer="Ease your life with quick access to datasets."
+        path="/webscraping"
         buttonName="Portfolio"
      >
-        <img src="~/assets/img/Coding_SVG.svg" alt slot="svg" style="height:80%"/>
+        <img src="~/assets/img/app_development_SVG.svg" alt slot="svg" style="height:80%"/>
       </feature-right>
     </div>
   </section>
