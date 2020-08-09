@@ -35,24 +35,24 @@
           <p class="uppercase text-gray-500 md:mb-6">Services</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
+              <nuxt-link
+                to="/automation"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Web</a
+                >Automation</nuxt-link
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
+              <nuxt-link
+                to="/webdev"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Python</a
+                >Web Dev</nuxt-link
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
+              <nuxt-link
+                to="/smm"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >SMM</a
+                >Social Media Management</nuxt-link
               >
             </li>
           </ul>

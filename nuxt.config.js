@@ -56,6 +56,9 @@ export default {
      */
     extend(config, ctx) {},
     // extractCSS:true,
+    loaders: {
+      file: { esModule: false }
+    },
     transpile: ['vue-awesome-swiper']
   }
 }

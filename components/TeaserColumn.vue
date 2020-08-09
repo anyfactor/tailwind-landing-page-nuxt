@@ -20,7 +20,6 @@
             <slot name="list" />
           </ul>
           <p class="text-gray-800 text-base px-6 mb-5 mt-2">
-          <!-- <img :src="img_path" alt="" style="height:100px "> -->
             <slot name="footer" /></p
         ></div>
       </div>
@@ -30,13 +29,13 @@
           class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6 py-1"
         >
           <div class="flex items-center justify-end">
-            <a :href="path" target="_blank">
+            <nuxt-link :to="path">
             <button
               class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
             >
               {{ action }}
             </button>
-            </a>
+            </nuxt-link>
           </div>
         </div>
       </template>
@@ -61,11 +60,6 @@ export default {
     path: {
       type: String,
       default: ''
-    },
-    img_path: {
-      type: String,
-      default: '',
-      required: false
     },
     buttonBool: {
       type: Boolean,

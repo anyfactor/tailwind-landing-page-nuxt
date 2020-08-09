@@ -74,7 +74,7 @@
       </teaser-column> -->
     </div>
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <teaser-column :rows="3" action="Details" img_path="~/assets/img/programming.png">
+      <teaser-column :rows="3" action="Portfolio" buttonBool path="/dataanalytics">
         <template v-slot:headline
           >Data Analytics & Visualization</template
         >
@@ -83,7 +83,7 @@
         </template>
       </teaser-column>
 
-      <teaser-column :rows="3" action="Details">
+    <teaser-column :rows="3" action="Details" buttonBool path="/smm">
         <template v-slot:headline
           >Social Media<br/>Management</template
         >

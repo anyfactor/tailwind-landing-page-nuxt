@@ -27,14 +27,14 @@
         </nuxt-link> -->
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-3/5 py-6 text-center">
+      <!-- <div class="w-full md:w-3/5 py-6 text-center">
         <img
           class="w-full md:w4/5 z-50"
           style="margin-bottom: -2px;"
           src="~/assets/img/programming.png"
           alt
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
