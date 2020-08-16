@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'AnyFactor.xyz | Developer',
+    title: 'AnyFactor.xyz | Automation Developer & Digital Marketing',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,7 +12,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Freelancer, Data Scraping, Automation, Python, Vuejs, Web Development, Social Media Management, Data Analytics'
+          'Freelancer, Data Scraping, Automation, Python, Vuejs, Web Development, Social Media Management, Data Analytics, Digital Marketing'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]

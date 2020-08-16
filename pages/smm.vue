@@ -4,7 +4,7 @@
     <section class="bg-white py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Social Media & Startup
+          Social Media & Digital Marketing
           <br />Management
         </h1>
         <div class="w-full mb-4">
@@ -39,6 +39,12 @@
                 target="_blank"
               >SMM Suggestions (Upgrades): Luxury Real Estate</a>
             </li>
+            <li class="list-disc m-3">
+              <a
+                href="https://medium.com/@anyfactor/smm-case-study-scientific-research-assistance-service-7e42d02b76a5"
+                target="_blank"
+              >SMM Case Study: Scientific Research Assistance Service</a>
+            </li>
           </ul>
         </div>
         <div>
@@ -48,12 +54,13 @@
           <div class="mx-auto font-bold leading-tight text-gray-700 m-10">
             <ul>
               <li class="list-disc m-4">
-                Social Media Acitivities
+                Social Media & Digital Marketing
                 <ul class="font-medium">
                   <li class="list-disc m-3">Copywriting & Creating Posts</li>
                   <li class="list-disc m-3">Graphics Design & Infographs</li>
                   <li class="list-disc m-3">Sharing Blog Posts & News Article</li>
                   <li class="list-disc m-3">Update Posts & Advertisement of the Business</li>
+                  <li class="list-disc m-3">Cold Email & Waitlist</li>
                   <li
                     class="list-disc m-3"
                   >Communicate Potential Customer Inquries, Requests and Messages to the Owner</li>
@@ -94,6 +101,8 @@
                 class="list-disc m-3"
               >Intermediate level skills in Video Editing & Slide Presentation</li>
               <li class="list-disc m-3">Graphics Design, Custom Gifs & Memes</li>
+              <li class="list-disc m-3">SendGrid</li>
+              <li class="list-disc m-3">HTML Email Design</li>
               <li class="list-disc m-3">Copywriting & Content Creation</li>
               <li class="list-disc m-3">Market, Target Demographics & Competition Research</li>
               <li class="list-disc m-3">Startup & Passive Investment Management</li>

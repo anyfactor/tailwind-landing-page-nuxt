@@ -83,23 +83,22 @@
         </template>
       </teaser-column>
 
-    <teaser-column :rows="3" action="Details" buttonBool path="/smm">
+    <teaser-column :rows="3" action="Details" buttonBool path="/webdev">
         <template v-slot:headline
-          >Social Media<br/>Management</template
+          >Web<br/>Development</template
         >
         <template v-slot:content
-          >My extensive experience in programming, finance, accounting, sales, trading,
-          eCommerce and digital marketing allows me to be the best candidate to
-          -
+          >
+          I will help you create a beautiful, lightweight and user-focused website that is easy to operate and close as free to maintain.
         </template>
         <template v-slot:list>
-          <li>Maintain your online presence in your target communities</li>
-          <li>Curate information and threads for advertisement</li>
-          <li>Trigger natural growth</li>
-          <li>Sanitize your feed</li>
+          <li>Modifying Templates or Existing Projects</li>
+          <li>Blog</li>
+          <li>ECommerce</li>
+          <li>Content Management System</li>
         </template>
         <template v-slot:footer
-          >Coupled with SEO, Automation tools and my programming skills.
+          >Currently looking for opportunities in a small team.
         </template>
       </teaser-column>
 

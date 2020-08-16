@@ -27,6 +27,18 @@
           <li class="mr-3">
             <nuxt-link
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              to="/automation"
+            >Automation</nuxt-link>
+          </li>
+          <li class="mr-3">
+            <nuxt-link
+              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              to="/smm"
+            >SMM</nuxt-link>
+          </li>
+          <li class="mr-3">
+            <nuxt-link
+              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               to="/webscraping"
             >Scraping</nuxt-link>
           </li>
@@ -35,12 +47,6 @@
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               to="/webdev"
             >Web Dev</nuxt-link>
-          </li>
-          <li class="mr-3">
-            <nuxt-link
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              to="/automation"
-            >Automation</nuxt-link>
           </li>
           <li class="mr-3">
             <a

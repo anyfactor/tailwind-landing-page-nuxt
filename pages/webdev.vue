@@ -138,7 +138,7 @@ export default {
         daily_idea: ['VueJs, Nuxt', 'SCSS', 'Template Modification', 'Github'],
         Social_hub: ['VueJs, Nuxt', 'Netlify & Netlify CMS',  'Laravel REST', 'PostGreSQL', 'Github'],
         technology: ['Stack: JAMstack (Javascript, API, Markup)', 'Preferred Role: Frontend Developer','Front End Framework: VueJs', 'Static Site Generator: NuxtJs', 'Frontend CSS Framework: BootstrapVue, Vuetify, Tailwind, SCSS', 'Static Site Deployment: Netlify, Github Pages',
-                   'Content Management System: Netlify CMS, Nuxt Content', 'API: Firebase, Flask, FastAPI', 'Android, Cross Platform & Chrome Extension Development: Quasar','Backend: Python, Javascript', 'Database: SQLite3, PostGreSQL, JSON, Markdown']
+                   'Content Management System: Netlify CMS, Nuxt Content', 'API: Firebase & RESTful Flask', 'Android, Cross Platform & Chrome Extension Development: Quasar','Backend: Python, Javascript', 'Database: SQLite3, PostGreSQL, JSON, Markdown']
         }
     }
 }

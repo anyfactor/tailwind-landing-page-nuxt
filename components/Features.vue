@@ -23,11 +23,11 @@
       </feature-right>
       
       <feature-left
-        headline="Web Development"
-        content="I will help you create a beautiful, lightweight and user-focused website that is easy to operate and close as free to maintain."
-        :list="web_dev"
-        footer="Whatever it is send me an email and we will make dreams into reality."
-        path="/webdev"
+        headline="Digital Marketing & Social Media Management"
+        content="My extensive experience in programming, finance, accounting, sales, trading, eCommerce and digital marketing allows me to be the best candidate to -"
+        :list="smm"
+        footer="Coupled with SEO, Automation tools and my programming skills."
+        path="/smm"
         buttonName="Portfolio"
       >
         <img src="~/assets/img/Web_design_SVG.svg" alt slot="svg" style="height:80%" />
@@ -56,7 +56,7 @@ export default {
   data: function(){
     return{
       web_scraping: ['Directory Scraping', 'Price Monitoring', 'Lead Generation', 'Marketing', 'Research et'],
-      web_dev: ['Landing Pages', 'Modifying Templates or Existing Projects', 'Blog', 'ECommerce', 'Content Management System'],
+      smm: ['Maintain your online presence in your target communities', 'Curate information and threads for advertisement', 'Trigger natural growth', 'Sanitize your feed', 'Landing Pages'],
       automation_list: ['Custom Scripts', 'Interacting with Browsers', 'Microsoft Excel & Google Sheets', 'Microsoft Office Suite, PDF, OCR, Images', 'Interacting with Softwares, Desktop & Graphical User Interface (GUI)']
     }
   },
