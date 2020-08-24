@@ -1,6 +1,6 @@
 <template>
 <div>
-    <hero />
+    <!-- <hero /> -->
     <!-- <teasers />
     <features />
     <prices /> -->
@@ -16,20 +16,14 @@
 </template>
 
 <script>
-import Hero from '@/components/Hero'
-import Features from '@/components/Features'
-import Teasers from '@/components/Teasers'
-import Prices from '@/components/Prices'
+// import Hero from '@/components/Hero'
 import CallToAction from '@/components/CallToAction'
 import Experience from '@/components/Experience'
 // import Carousel from '@/components/Carousel'
 
 export default {
     components: {
-    hero: Hero,
-    features: Features,
-    teasers: Teasers,
-    prices: Prices,
+    // hero: Hero,
     'call-to-action': CallToAction,
     experience: Experience,
     // carousel: Carousel

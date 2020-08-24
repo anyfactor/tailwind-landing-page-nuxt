@@ -1,6 +1,6 @@
 <template>
 <div>
-    <hero />
+    <!-- <hero /> -->
   <section class="bg-white py-8">
     <div class="container max-w-5xl mx-auto m-8">
       <h1
@@ -17,7 +17,7 @@
       Experience
     </h1>
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.notestem.com/">
+      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.notestem.com/" out_link>
         <template v-slot:headline
           >Notestem.com</template
         >
@@ -32,7 +32,7 @@
           >
         </template>
       </teaser-column>
-      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.managechannel.com/">
+      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.managechannel.com/" out_link>
         <template v-slot:headline
           >ManageChannel.com</template
         >
@@ -48,7 +48,7 @@
         </template>
       </teaser-column>
 
-      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.dailyidea.com/">
+      <teaser-column :rows="2" action="Visit" buttonBool path="https://www.dailyidea.com/" out_link>
         <template v-slot:headline
           >DailyIdea.com
      </template>
@@ -114,7 +114,7 @@
 </template>
 
 <script>
-import Hero from '@/components/Hero'
+// import Hero from '@/components/Hero'
 import CallToAction from '@/components/CallToAction'
 import ContactButton from '@/components/ContactButton'
 import FeatureRight from '@/components/FeatureRight'
@@ -123,7 +123,7 @@ import TeaserColumn from '@/components/TeaserColumn'
 
 export default {
     components: {
-    hero: Hero,
+    // hero: Hero,
     'call-to-action': CallToAction,
     'contact-button': ContactButton,
     'feature-right': FeatureRight,

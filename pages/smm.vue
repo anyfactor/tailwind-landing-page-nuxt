@@ -1,6 +1,6 @@
 <template>
   <div>
-    <hero />
+    <!-- <hero /> -->
     <section class="bg-white py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
@@ -149,14 +149,14 @@
 </template>
 
 <script>
-import Hero from '@/components/Hero'
+// import Hero from '@/components/Hero'
 import CallToAction from '@/components/CallToAction'
 import ContactButton from '@/components/ContactButton'
 // import Experience from '@/components/Experience'
 
 export default {
   components: {
-    hero: Hero,
+    // hero: Hero,
     'call-to-action': CallToAction,
     'contact-button': ContactButton
     // experience: Experience

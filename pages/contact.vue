@@ -1,6 +1,6 @@
 <template>
 <div>
-    <hero />
+    <!-- <hero /> -->
     
     <call-to-action />
 </div>
@@ -8,15 +8,15 @@
 </template>
 
 <script>
-import Hero from '@/components/Hero'
+// import Hero from '@/components/Hero'
 import CallToAction from '@/components/CallToAction'
-import Experience from '@/components/Experience'
+// import Experience from '@/components/Experience'
 
 export default {
     components: {
-    hero: Hero,
+    // hero: Hero,
     'call-to-action': CallToAction,
-    experience: Experience
+    // experience: Experience
     },
     data: function() {
         return {

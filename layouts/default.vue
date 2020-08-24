@@ -1,6 +1,7 @@
 <template>
   <div class="leading-normal tracking-normal text-white gradient">
     <the-header />
+    <hero />
     <nuxt />
     <the-footer />
   </div>
@@ -9,11 +10,13 @@
 <script>
 import TheHeader from '@/components/TheHeader.vue'
 import TheFooter from '@/components/TheFooter.vue'
+import Hero from '@/components/Hero'
 
 export default {
   components: {
     'the-header': TheHeader,
-    'the-footer': TheFooter
+    'the-footer': TheFooter,
+    'hero': Hero,
   }
 }
 </script>

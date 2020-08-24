@@ -1,6 +1,6 @@
 <template>
   <div>
-    <hero />
+    <!-- <hero /> -->
     <features />
     <teasers />
     <testimonial />
@@ -10,17 +10,17 @@
 </template>
 
 <script>
-import Hero from '@/components/Hero'
+// import Hero from '@/components/Hero'
 import Features from '@/components/Features'
 import Teasers from '@/components/Teasers'
-import Prices from '@/components/Prices'
+// import Prices from '@/components/Prices'
 import CallToAction from '@/components/CallToAction'
 import Testimonial from '@/components/Testimonial'
 
 export default {
   name: 'LandingPage',
   components: {
-    hero: Hero,
+    // hero: Hero,
     features: Features,
     teasers: Teasers,
     // prices: Prices,
