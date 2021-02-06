@@ -8,5 +8,5 @@
 
 .page-enter, .page-leave-active{
   opacity: 0;
-  transform: scale(0);
+  /* transform: scale(0); */
 }

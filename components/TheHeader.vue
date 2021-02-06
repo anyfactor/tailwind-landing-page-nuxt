@@ -51,7 +51,7 @@
           <li class="mr-3">
             <a
               class="inline-block font-medium text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="https://drive.google.com/file/d/1ZjzUroQdM4WtTrNgbx6PAVAs_WqWjMJs/view?usp=sharing"
+              href="https://drive.google.com/file/u/2/d/10LYcGtL1Pi40etWP7Dfw66MJ4oVwltfW/view?usp=sharing"
               target="_blank"
             >Resume</a>
           </li>
