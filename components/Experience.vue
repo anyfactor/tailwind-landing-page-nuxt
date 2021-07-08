@@ -6,6 +6,9 @@
         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h1 class="w-full my-1 text-3xl font-bold leading-tight text-left text-gray-800">Experience</h1>
+      <p class="mx-auto font-bold leading-tight text-gray-700 m-3">
+        For this service, <strong>{{ items.length }}</strong> projects were finished and delivered. 
+      </p>
       <div v-if="links">
         <div class="mx-auto font-bold leading-tight text-gray-700 m-10">
           <ul>
@@ -18,7 +21,16 @@
       <div v-else>
         <div class="mx-auto font-bold leading-tight text-gray-700 m-10">
           <ul>
-            <li v-for="item in items" :key="item.id" class="list-disc m-3">{{ item }}</li>
+            <li v-for="item in items" :key="item.id" class="list-disc m-3">
+              <p v-if="item['url']">
+                <a :href="item['url']" target="_blank">
+                  {{ item['text'] }}
+                </a>
+              </p>
+              <p v-else>
+                {{ item['text'] }}
+              </p>
+            </li>
           </ul>
         </div>
       </div>
@@ -88,7 +100,6 @@ export default {
 li a {
   outline: none;
   text-decoration: none;
-  padding: 2px 15px 0;
   border-radius: 15px 50px;
   transition: 0.3s;
 }

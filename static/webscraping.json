@@ -1,0 +1,110 @@
+{
+  "title": "Web Scraping",
+  "items": [
+    {
+      "text": "Finding active GoodReads users and scraping various information from each of the users\u2019 library",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/1.jpg"
+    },
+    {
+      "text": "Scraping online directory for website, email, and contact information of Danish woodworking companies",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/2.jpg"
+    },
+    {
+      "text": "Latitude and longitude scraped of 5000 institutes",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/3.jpg"
+    },
+    {
+      "text": "Wikipedia sidebar information scraped of 200 educational institutes",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/4.jpg"
+    },
+    {
+      "text": "Directory scrape specific lawsuit information scrape",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/5.jpg"
+    },
+    {
+      "text": "Ecommerce site scrape: 2,500 popular search term generation and associated review and other information",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/6.jpg"
+    },
+    {
+      "text": "Over 20,000 product URLs scraped from an Ecommerce site, and  displayed and non-displayed information scraped from each individual URL",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/7.jpg"
+    },
+    {
+      "text": "Scraping product information of a car company",
+      "url": ""
+    },
+    {
+      "text": "3,000+ rows of information scraped which were protected with limits and were hidden",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/8.jpg"
+    },
+    {
+      "text": "3,000+ large scale directory scrape with individual information structured in tabular format",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/9.jpg"
+    },
+    {
+      "text": "Directory Scrape of Commercial Contractor for subcontracting",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/10.jpg"
+    },
+    {
+      "text": "Subcontracting & competition assessment based on geo-location",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/11.jpg"
+    },
+    {
+      "text": "1,200 DnD information Scraped",
+      "url": "https://raw.githubusercontent.com/anyfactor/anyfactor.github.io/master/portfolio/12.jpg"
+    },
+    {
+      "text": "Scraping the backup data and pictures from a way back machine",
+      "url": "https://i.ibb.co/3zhQXJz/image-27.jpg"
+    },
+    {
+      "text": "Scraping the full catalog of products of an e-commerce for market research",
+      "url": ""
+    },
+    {
+      "text": "Emergency Medical Supply directory for a Trust Based operation",
+      "url": "https://i.ibb.co/thxkX4x/image-24.jpg"
+    },
+    {
+      "text": "Scraping real estate foreclosure information with captcha configuration",
+      "url": ""
+    },
+    {
+      "text": "Large scale global product information scrape with proxies and cloudflare bypass",
+      "url": "https://i.ibb.co/fQrYRYY/image-25.jpg"
+    },
+    {
+      "text": "Beverage recipe scraping",
+      "url": "https://i.ibb.co/6m1tdcG/image-26.jpg"
+    },
+    {
+      "text": "Large Ecommerce site scrape with detailed information and pictures",
+      "url": "https://i.ibb.co/n75VBCb/image-62.jpg"
+    },
+    {
+      "text": "Chat/Messaging history scrape for financial analysis and investment decision making.",
+      "url": "https://i.ibb.co/pfSKm1J/image-63.jpg"
+    },
+    {
+      "text": "Manufacturing professionals directory scrape",
+      "url": "https://i.ibb.co/8XBbGZj/image-69.jpg"
+    },
+    {
+      "text": "60,000 medical professional contact information from a directory Scraped for Real Estate Agency Outreach; And Finding the best candidate with Data Analytics & Logic || Python, Requests, Threading, Pandas, Excel || Timeline: July 5th, 2021 (1 day)  (New)",
+      "url": "https://i.ibb.co/KbbXqZZ/image.png"
+    },
+    {
+      "text": "From 100k catalog entries to 5,000 Unique products and 2000 images. Massive inventory directory with search limits and IP block scrape with custom-tailored data delivery optimum for processing and easy reselling website entry || Python, Threading, Proxies, Pandas, Image Processing (to find duplicates) || Timeline: June 25th, 2021 (2 Weeks)  (New)",
+      "url": "https://i.ibb.co/wC9rWnG/image-3.jpg"
+    }
+  ],
+  "technology": [
+    "Python",
+    "Selenium, Requests-HTML",
+    "Requests, URLLib, Beautiful Soup 4",
+    "Regex",
+    "Pandas, Numpy",
+    "Microsoft Excel, Google Sheets",
+    "SQL"
+  ]
+}

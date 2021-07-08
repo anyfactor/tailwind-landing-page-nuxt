@@ -45,6 +45,19 @@
                 target="_blank"
               >SMM Case Study: Scientific Research Assistance Service</a>
             </li>
+            <li class="list-disc m-3">
+              <a
+                href="https://anyfactor.medium.com/smm-case-study-regional-law-firms-part-1-competition-overview-9b56493a8fb3"
+                target="_blank"
+              >SMM Case Study: Regional Law Firms</a>
+            </li>
+            <li class="list-disc m-3">
+              <a
+                href="https://anyfactor.medium.com/smm-case-study-cloud-development-management-service-a3e43932071d"
+                target="_blank"
+              >SMM Case Study: Cloud Development & Management Service</a>
+            </li>
+
           </ul>
         </div>
         <div>
